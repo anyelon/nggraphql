@@ -1,0 +1,29 @@
+{
+  "name": "nggraphql",
+  "version": "0.0.1",
+  "description": "An Angular module wrapper for graphql.js",
+  "author": ["Angel Martin <apmartinolivera@gmail.com>"],
+  "license": "MIT",
+  "keywords": [
+    "grapqhql",
+    "angular",
+    "grapqhql.js"
+  ],
+  "ignore": [
+    "test",
+    "*.",
+    "karma.conf.js",
+    "Gruntfile.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anyelon/nggraphql.git"
+  },
+  "main": [
+    "nggraphql/build/nggrapqhql.js"
+  ],
+  "dependencies": {
+    "angular": ">=1.4.8",
+    "graphql.js": "^0.6.1"
+  }
+}
