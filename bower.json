@@ -10,17 +10,13 @@
     "grapqhql.js"
   ],
   "ignore": [
-    "test",
-    "*.",
-    "karma.conf.js",
-    "Gruntfile.js"
   ],
   "repository": {
     "type": "git",
     "url": "git@github.com:anyelon/nggraphql.git"
   },
   "main": [
-    "nggraphql/build/nggrapqhql.js"
+    "./build/nggrapqhql.js"
   ],
   "dependencies": {
     "angular": ">=1.4.8",
