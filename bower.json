@@ -16,7 +16,7 @@
     "url": "git@github.com:anyelon/nggraphql.git"
   },
   "main": [
-    "./build/nggrapqhql.js"
+    "./build/nggraphql.js"
   ],
   "dependencies": {
     "angular": ">=1.4.8",
