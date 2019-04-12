@@ -11,14 +11,6 @@
     angular
         .module('ngGraphql', ['ngGraphqlConfig']);
 
-    // Common.js package manager support (e.g. ComponentJS, WebPack)
-    if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports) {
-        module.exports = 'ngGraphql';
-    }
-})();
-(function () {
-    'use strict';
-
     angular
         .module('ngGraphql')
         .factory('ngGraphqlService', ngGraphqlService);
@@ -45,4 +37,8 @@
             }
         }
 
+    // Common.js package manager support (e.g. ComponentJS, WebPack)
+    if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports) {
+        module.exports = 'ngGraphql';
+    }
 })();
